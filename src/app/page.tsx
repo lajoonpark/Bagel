@@ -11,7 +11,7 @@ const classicBagels = [
   "Sunflower Seed",
 ];
 
-const uniqueBagels = [
+const specialtyBagels = [
   "Jalapeño & Cheese",
   "Onion",
   "Cranberry",
@@ -147,7 +147,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mb-8">
           <MenuList title="Classic" items={classicBagels} />
-          <MenuList title="Unique" items={uniqueBagels} />
+          <MenuList title="Unique" items={specialtyBagels} />
         </div>
 
         <p className="text-white/70 text-sm italic text-center mb-10">
