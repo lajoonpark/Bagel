@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-orange: #ff6a00;
+  --color-brand-orange-dark: #e05a00;
+  --color-brand-blue: #3b9eff;
+  --color-brand-blue-dark: #1e80e0;
+  --font-heading: "Boogaloo", cursive;
+  --font-sans: "Nunito", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: white;
+  color: #1a1a1a;
+}
